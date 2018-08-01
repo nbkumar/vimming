@@ -1,0 +1,16 @@
+often, on new linux terminals , on vim editors, backpace wont work. to fix 
+>>stty erase '^?'
+
+other solution using set did not work. ( should have been)
+in .vimrc file
+set nocompatible
+set backspace=indent,eol,start
+set backspace=2
+
+how to locate .vimrc?
+>>echo %HOME
+if not existing in $HOME, create one
+
+How to ensure same vimrc is being used?
+ in the .vimrc, set number. you should see lines numbered in any new vim file
+ 
