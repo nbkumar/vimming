@@ -1,0 +1,8 @@
+check disk space 
+>df -h | grep "nbt"
+kill a process
+>kill -15 pid
+get pid by
+>ps
+list process running
+>top
