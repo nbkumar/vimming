@@ -6,3 +6,17 @@ get pid by
 >ps
 list process running
 >top
+
+To find File 
+findvi_qspi/ -type f -iname "*target.c*"
+
+How to set alias
+> vi /usr2/nbt/.cshrc.local
+add alias p 'pwd'
+>source /usr2/nbt/.chsrc.local
+
+To find groups you are member of
+>groups nbt
+
+To check group to which a path belongs to
+>ls -ld vi_talos_au
